@@ -1,5 +1,5 @@
-//Brand.cfc associated from Product.cfc works well, but the opposite does not work
-/* This Happened in ProductTest.cfc when running the following function
+//Brand.cfc associated from Product.cfc works well, but the opposite does not work. This Happened in ProductTest.cfc when running the following function
+/* 
 //In Product.cfc
 property name="brand" cfc="Brand" fieldtype="many-to-one" fkcolumn="brandID" hb_optionsNullRBKey="define.none" fetch="join";
 //In Brand.cfc
